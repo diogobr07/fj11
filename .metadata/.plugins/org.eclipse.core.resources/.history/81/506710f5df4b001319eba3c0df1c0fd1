@@ -1,0 +1,7 @@
+
+public class TestaDeposita {
+	public static void main(String[]  args) {
+		ContaPoupanca cp = new ContaPoupanca();
+		cp.deposita(-100);
+	}
+}

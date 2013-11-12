@@ -1,0 +1,6 @@
+public class ValorInvalidoException extends RuntimeException {
+	public ValorInvalidoException() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
