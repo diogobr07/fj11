@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Personagem"/>
+<fullyQualifiedTypeName name="Tabuleiro"/>
+<fullyQualifiedTypeName name="Funcionario"/>
+<fullyQualifiedTypeName name="Estagiario"/>
+<fullyQualifiedTypeName name="ContaSalario"/>
+<fullyQualifiedTypeName name="Tributavel"/>
+<fullyQualifiedTypeName name="SeguroDeVida"/>
+<fullyQualifiedTypeName name="ContaCorrente"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="Quadrado"/>
+<fullyQualifiedTypeName name="Retangulo"/>
+<fullyQualifiedTypeName name="Circulo"/>
+<fullyQualifiedTypeName name="AreaCalculavel"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+</qualifiedTypeNameHistroy>

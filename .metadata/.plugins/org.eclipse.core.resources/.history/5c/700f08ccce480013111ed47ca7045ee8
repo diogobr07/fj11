@@ -1,0 +1,13 @@
+public class ContaSalario extends Conta {
+
+	public ContaSalario() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void atualiza(double taxa) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

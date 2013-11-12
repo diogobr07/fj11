@@ -1,0 +1,18 @@
+
+public class Matrix {
+	public static void main(String[] args) {
+		Personagem personagem = new Personagem();
+		personagem.setNome("Neo");
+		personagem.setAvatar("Keanu");
+		personagem.setVida(3);
+		personagem.setArmas( new String[] { "x", "y" } );
+		System.out.println(personagem.getAvatar());
+		
+		for(String arma : personagem.getArmas()){
+			System.out.println("arma " + arma);
+		}
+		
+		Tabuleiro tabuleiro = new Tabuleiro(3);
+		tabuleiro.setPersonagem(personagem);
+	}
+}

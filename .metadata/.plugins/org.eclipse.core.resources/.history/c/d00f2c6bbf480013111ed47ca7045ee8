@@ -1,0 +1,9 @@
+
+public class Tabuleiro {
+
+	public void setPersonagem(Personagem personagem) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+
+public class Teste {
+	public static void main(String[] args){
+		AreaCalculavel a = new Retangulo(10, 2);
+		System.out.println(a.calculaArea());
+		
+		AreaCalculavel q = new Quadrado(3);
+		System.out.println(q.calculaArea());
+		
+		AreaCalculavel c = new Circulo(3.5);
+		System.out.println(c.calculaArea());
+		
+		Object[] formas = new AreaCalculavel[5];
+		
+		formas[0] = new Retangulo(3, 10);
+		formas[1] = new Quadrado(4);
+		formas[2] = new Retangulo(2, 8);
+		formas[3] = "diogo";
+		formas[4] = new Circulo(5);
+		
+		for(Object f: formas) {
+			System.out.println(((AreaCalculavel)f).calculaArea());
+			System.out.println(f.getClass());
+		}
+	}
+}

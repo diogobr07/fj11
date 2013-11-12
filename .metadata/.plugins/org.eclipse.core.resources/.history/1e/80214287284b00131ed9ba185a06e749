@@ -1,0 +1,10 @@
+
+public class Teste {
+	public static void main(String[] args){
+		AreaCalculavel a = new Retangulo(10, 2);
+		System.out.println(a.calculaArea());
+		
+		AreaCalculavel q = new Quadrado(3);
+		System.out.println(q.calculaArea());
+	}
+}
