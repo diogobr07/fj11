@@ -22,10 +22,6 @@ public class TestaLang {
 		System.out.println(Integer.toBinaryString(123));
 		int i = Integer.parseInt("127");
 		System.out.println(i);
-		
-		String a = "Diogo";
-		String b = new String("Diogo");
-		System.out.println(a == b);
 	}
 
 }

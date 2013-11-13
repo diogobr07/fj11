@@ -24,7 +24,7 @@ public class TestaLang {
 		System.out.println(i);
 		
 		String a = "Diogo";
-		String b = new String("Diogo");
+		String b = "Diogo";
 		System.out.println(a == b);
 	}
 
