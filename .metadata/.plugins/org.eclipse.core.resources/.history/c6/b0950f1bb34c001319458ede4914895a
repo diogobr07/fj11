@@ -1,0 +1,19 @@
+package br.com.caeulum.editordetexto;
+
+import java.io.BufferedWriter;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+
+public class EscreveTexto {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		OutputStream os = new FileOutputStream("saida.txt");
+		OutputStreamWriter osw = new OutputStreamWriter(os);
+		BufferedWriter bw = new BufferedWriter(osw);
+	}
+
+}

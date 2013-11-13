@@ -13,7 +13,7 @@ public class LeTexto {
 		BufferedReader br = new BufferedReader(isr);
 		String s = br.readLine();
 		
-		while (!s.equalsIgnoreCase("fim")) {
+		while (!s.equals("fim")) {
 			System.out.println(s);
 			s = br.readLine();
 		}

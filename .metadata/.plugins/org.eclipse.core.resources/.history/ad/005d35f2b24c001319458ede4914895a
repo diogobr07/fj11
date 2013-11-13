@@ -1,0 +1,12 @@
+package br.com.caeulum.editordetexto;
+
+public class EscreveTexto {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

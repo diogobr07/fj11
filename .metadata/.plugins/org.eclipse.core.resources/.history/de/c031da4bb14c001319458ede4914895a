@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.net.URL;
 
 public class LeTexto {
 	public static void main(String[] args) throws IOException {
@@ -13,7 +14,7 @@ public class LeTexto {
 		BufferedReader br = new BufferedReader(isr);
 		String s = br.readLine();
 		
-		while (!s.equalsIgnoreCase("fim")) {
+		while (s != null && s.equals("fim")) {
 			System.out.println(s);
 			s = br.readLine();
 		}
