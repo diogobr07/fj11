@@ -20,8 +20,6 @@ public class TestaLang {
 		
 		System.out.println(Integer.MAX_VALUE);
 		System.out.println(Integer.toBinaryString(123));
-		int i = Integer.parseInt("127");
-		System.out.println(i);
 	}
 
 }
