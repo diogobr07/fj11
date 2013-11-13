@@ -1,0 +1,12 @@
+package br.com.caeulum.editordetexto;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+
+public class LeTexto {
+	public static void main (String[] args) throws IOException {
+		InputStream is = new FileInputStream("arquivo.txt");
+		is.read();
+	}
+}

@@ -26,6 +26,9 @@ public class TestaLang {
 		String a = "Diogo";
 		String b = new String("Diogo");
 		System.out.println(a == b);
+		
+		b = b.toUpperCase();
+		System.out.println(b);
 	}
 
 }
