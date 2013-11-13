@@ -32,7 +32,7 @@ public class EditorDeTexto {
 		
 		Scanner s = new Scanner(System.in);
 		PrintStream ps = new PrintStream("texto.txt");
-		while(s.hasNextLine()){
+		while(s.hasNextLine() && !s.toString().equalsIgnoreCase("fim")){
 			ps.println(s.nextLine());
 		}
 
