@@ -1,0 +1,30 @@
+package br.com.caelum.banco.processos;
+
+public class TestaMeuProcesso {
+
+	/**
+	 * @param args
+	 * @throws InterruptedException 
+	 */
+	public static void main(String[] args) throws InterruptedException {
+		long inicio = System.currentTimeMillis();
+		MeuProcesso p1 = new MeuProcesso(1);
+		MeuProcesso p2 = new MeuProcesso(2);
+		MeuProcesso p3 = new MeuProcesso(3);
+		
+		Thread t1 = new Thread(p1);
+		Thread t2 = new Thread(p2);
+		Thread t3 = new Thread(p3);
+		
+		t1.start();
+		t2.start();
+		t3.start();
+		
+		t1.join();
+		t2.join();
+		t3.join();
+		
+		System.out.println("Tempo decorrido: " + (System.currentTimeMillis() - inicio));
+	}
+
+}

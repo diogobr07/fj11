@@ -1,0 +1,19 @@
+package br.com.caelum.banco.processos;
+
+import java.util.Collection;
+
+public class ProduzMensagens implements Runnable {
+	private int comeco;
+	private int fim;
+	private Collection<String> mensagens;
+	
+	public ProduzMensagens(int comeco, int fim, Collection<String> mensagens){
+		
+	}
+	@Override
+	public void run() {
+	
+		
+	}
+
+}

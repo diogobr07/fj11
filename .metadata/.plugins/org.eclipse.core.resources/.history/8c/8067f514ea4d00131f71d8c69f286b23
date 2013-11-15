@@ -1,0 +1,22 @@
+package br.com.caelum.banco.processos;
+
+public class TestaMeuProcesso {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		MeuProcesso p1 = new MeuProcesso(1);
+		MeuProcesso p2 = new MeuProcesso(2);
+		MeuProcesso p3 = new MeuProcesso(3);
+		
+		Thread t1 = new Thread();
+		Thread t2 = new Thread();
+		Thread t3 = new Thread();
+		
+		t1.run();
+		t2.run();
+		t3.run();
+	}
+
+}

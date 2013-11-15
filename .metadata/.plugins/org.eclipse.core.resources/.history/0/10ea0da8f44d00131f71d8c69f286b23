@@ -1,0 +1,29 @@
+package br.com.caelum.banco.processos;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class RegistroDeMensagens {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Collection<String> mensagens = new ArrayList<String>();
+		
+		Thread t1 = new Thread(new ProduzMensagens(0, 10000, mensagens));
+		Thread t2 = new Thread(new ProduzMensagens(10000, 20000, mensagens));
+		Thread t3 = new Thread(new ProduzMensagens(20000, 30000, mensagens));
+		
+		t1.start();
+		t2.start();
+		t3.start();
+		
+		//faz com que thread que o roda o main aguarde o fim dessa
+		t1.join();
+		t2.join();
+		t3.join();
+
+	}
+
+}

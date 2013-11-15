@@ -1,0 +1,8 @@
+package br.com.caelum.banco.processos;
+
+public class MeuProcesso implements Runnable {
+	public int id;
+	public MeuProcesso(int id) {
+		this.id = id;
+	}
+}
