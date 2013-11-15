@@ -1,0 +1,31 @@
+package br.com.caelum.banco.socket;
+
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+public class Cliente {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) throws UnknownHostException, IOException {
+		//dispare cliente
+		new Cliente("192.168.33.50", 30000).executa();
+
+	}
+	
+	private String host;
+	private int porta;
+	
+	public Cliente(String host, int porta){
+		this.host = host;
+		this.porta = porta;
+	}
+	
+	public void executa() throws UnknownHostException, IOException {
+		Socket cliente =  new Socket(this.host, this.porta);
+		System.out.println("O cliente se conectou ao servidor");
+	}
+
+}
