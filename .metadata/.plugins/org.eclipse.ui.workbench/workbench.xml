@@ -22,6 +22,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -39,39 +40,71 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Conta.java" partName="Conta.java" path="/home/oo3909/workspace/Banco/src/br/com/caelum/banco/modelo/Conta.java" title="Conta.java" tooltip="Banco/src/br/com/caelum/banco/modelo/Conta.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Banco/src/br/com/caelum/banco/modelo/Conta.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1690" selectionTopPixel="1266"/>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="arquivo.txt" partName="arquivo.txt" path="/home/oo3909/workspace/Editor de Texto/arquivo.txt" title="arquivo.txt" tooltip="Editor de Texto/arquivo.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Editor de Texto/arquivo.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="35" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestaLang.java" partName="TestaLang.java" path="/home/oo3909/workspace/Banco/src/br/com/caelum/banco/TestaLang.java" title="TestaLang.java" tooltip="Banco/src/br/com/caelum/banco/TestaLang.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Banco/src/br/com/caelum/banco/TestaLang.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="687" selectionTopPixel="83"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeTexto.java" partName="LeTexto.java" path="/home/oo3909/workspace/Editor de Texto/src/br/com/caeulum/editordetexto/LeTexto.java" title="LeTexto.java" tooltip="Editor de Texto/src/br/com/caeulum/editordetexto/LeTexto.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Editor de Texto/src/br/com/caeulum/editordetexto/LeTexto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="251" selectionOffset="248" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EscreveTexto.java" partName="EscreveTexto.java" path="/home/oo3909/workspace/Editor de Texto/src/br/com/caeulum/editordetexto/EscreveTexto.java" title="EscreveTexto.java" tooltip="Editor de Texto/src/br/com/caeulum/editordetexto/EscreveTexto.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Editor de Texto/src/br/com/caeulum/editordetexto/EscreveTexto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="200" selectionOffset="337" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="saida.txt" partName="saida.txt" path="/home/oo3909/workspace/Editor de Texto/saida.txt" title="saida.txt" tooltip="Editor de Texto/saida.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Editor de Texto/saida.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EditorDeTexto.java" partName="EditorDeTexto.java" path="/home/oo3909/workspace/Editor de Texto/src/br/com/caeulum/editordetexto/EditorDeTexto.java" title="EditorDeTexto.java" tooltip="Editor de Texto/src/br/com/caeulum/editordetexto/EditorDeTexto.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Editor de Texto/src/br/com/caeulum/editordetexto/EditorDeTexto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="839" selectionTopPixel="89"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="teste.txt" partName="teste.txt" path="/home/oo3909/workspace/Editor de Texto/teste.txt" title="teste.txt" tooltip="Editor de Texto/teste.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Editor de Texto/teste.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="texto.txt" partName="texto.txt" path="/home/oo3909/workspace/Editor de Texto/texto.txt" title="texto.txt" tooltip="Editor de Texto/texto.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Editor de Texto/texto.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestaLista.java" partName="TestaLista.java" path="/home/oo3909/workspace/Banco/src/br/com/caelum/banco/listas/TestaLista.java" title="TestaLista.java" tooltip="Banco/src/br/com/caelum/banco/listas/TestaLista.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Banco/src/br/com/caelum/banco/listas/TestaLista.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="273" selectionTopPixel="111"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.ClassFileEditor" name="Object.class" partName="Object.class" title="Object.class" tooltip="java.lang.Object" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=Interfaces/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.lang(Object.class"/>
-<editorState selectionHorizontalPixel="32" selectionLength="8" selectionOffset="10169" selectionTopPixel="3305"/>
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=Editor de Texto/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.lang(Object.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="10169" selectionTopPixel="3247"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="PrintStream.class" partName="PrintStream.class" title="PrintStream.class" tooltip="java.io.PrintStream" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=Banco/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.io(PrintStream.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="27962" selectionTopPixel="13328"/>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="ArrayList.class" partName="ArrayList.class" title="ArrayList.class" tooltip="java.util.ArrayList" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=Editor de Texto/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4159" selectionTopPixel="1048"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" partName="String.class" title="String.class" tooltip="java.lang.String" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=Interfaces/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="114097" selectionTopPixel="47872"/>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="AbstractList.class" partName="AbstractList.class" title="AbstractList.class" tooltip="java.util.AbstractList" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=Editor de Texto/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.util(AbstractList.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2193" selectionTopPixel="663"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ContaCorrente.java" partName="ContaCorrente.java" path="/home/oo3909/workspace/Banco/src/br/com/caelum/banco/modelo/ContaCorrente.java" title="ContaCorrente.java" tooltip="Banco/src/br/com/caelum/banco/modelo/ContaCorrente.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Banco/src/br/com/caelum/banco/modelo/ContaCorrente.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="629" selectionTopPixel="110"/>
+<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="AbstractCollection.class" partName="AbstractCollection.class" title="AbstractCollection.class" tooltip="java.util.AbstractCollection" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=Editor de Texto/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.util(AbstractCollection.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="15328" selectionTopPixel="7079"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TesaConjunto.java" partName="TesaConjunto.java" path="/home/oo3909/workspace/Banco/src/br/com/caelum/banco/listas/TesaConjunto.java" title="TesaConjunto.java" tooltip="Banco/src/br/com/caelum/banco/listas/TesaConjunto.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Banco/src/br/com/caelum/banco/listas/TesaConjunto.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="377" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
-<viewState/>
-</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -97,8 +130,8 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Warnings (1 item)"/>
-<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="307" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -333,12 +366,11 @@
 <perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -360,16 +392,17 @@
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24252492" ratioLeft="292" ratioRight="912" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.74666667" ratioLeft="504" ratioRight="171" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.66962963" ratioLeft="452" ratioRight="223" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
@@ -379,7 +412,6 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -406,164 +438,166 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Banco/src/br/com/caelum/banco/TestaDeposita.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Banco/src/br/com/caelum/banco/modelo/Conta.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Banco/src/br/com/caelum/banco/Tributavel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Banco/src/br/com/caelum/banco/TestaLang.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Interfaces/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.lang(Object.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Banco/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.io(PrintStream.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Interfaces/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Banco/src/br/com/caelum/banco/modelo/ContaCorrente.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Editor de Texto/saida.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Editor de Texto/src/br/com/caeulum/editordetexto/EditorDeTexto.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Editor de Texto/teste.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Editor de Texto/texto.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Banco/src/br/com/caelum/banco/listas/TestaLista.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Editor de Texto/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.lang(Object.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Editor de Texto/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Editor de Texto/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.util(AbstractList.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Editor de Texto/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.util(AbstractCollection.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Banco/src/br/com/caelum/banco/listas/TesaConjunto.java"/>
 </editors>
-<item historyLabel="Conta.java" index="1">
-<position info="not_deleted" x="648" y="0"/>
-</item>
-<item historyLabel="Tributavel.java" index="2">
+<item historyLabel="teste.txt" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Conta.java" index="1">
-<position info="not_deleted" x="648" y="0"/>
-</item>
-<item historyLabel="TestaDeposita.java" index="0">
-<position info="not_deleted" x="368" y="0"/>
-</item>
-<item historyLabel="Conta.java" index="1">
-<position info="not_deleted" x="648" y="0"/>
-</item>
-<item historyLabel="Conta.java" index="1">
-<position info="not_deleted" x="37" y="0"/>
-</item>
-<item historyLabel="Conta.java" index="1">
-<position info="not_deleted" x="8" y="26"/>
-</item>
-<item historyLabel="Conta.java" index="1">
-<position info="not_deleted" x="37" y="0"/>
-</item>
-<item historyLabel="Conta.java" index="1">
-<position info="not_deleted" x="152" y="5"/>
-</item>
-<item historyLabel="Conta.java" index="1">
-<position info="not_deleted" x="1059" y="0"/>
-</item>
-<item historyLabel="TestaLang.java" index="3">
+<item historyLabel="teste.txt" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="222" y="0"/>
+<item historyLabel="EditorDeTexto.java" index="1">
+<position info="not_deleted" x="652" y="0"/>
 </item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="180" y="0"/>
+<item historyLabel="teste.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Object.class" index="4">
-<position info="not_deleted" x="513" y="6"/>
+<item historyLabel="EditorDeTexto.java" index="1">
+<position info="not_deleted" x="652" y="0"/>
 </item>
-<item historyLabel="Conta.java" index="1">
-<position info="not_deleted" x="1059" y="0"/>
+<item historyLabel="EditorDeTexto.java" index="1">
+<position info="not_deleted" x="874" y="0"/>
 </item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="218" y="0"/>
+<item historyLabel="EditorDeTexto.java" index="1">
+<position info="not_deleted" x="813" y="0"/>
 </item>
-<item historyLabel="Object.class" index="4">
-<position info="not_deleted" x="513" y="6"/>
+<item historyLabel="EditorDeTexto.java" index="1">
+<position info="not_deleted" x="874" y="0"/>
 </item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="218" y="0"/>
+<item historyLabel="EditorDeTexto.java" index="1">
+<position info="not_deleted" x="870" y="0"/>
 </item>
-<item historyLabel="PrintStream.class" index="5">
-<position info="not_deleted" x="27962" y="0"/>
+<item historyLabel="texto.txt" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="String.class" index="6">
-<position info="not_deleted" x="114097" y="0"/>
+<item historyLabel="EditorDeTexto.java" index="1">
+<position info="not_deleted" x="839" y="0"/>
 </item>
-<item historyLabel="Object.class" index="4">
+<item historyLabel="texto.txt" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="texto.txt" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="teste.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EditorDeTexto.java" index="1">
+<position info="not_deleted" x="839" y="0"/>
+</item>
+<item historyLabel="texto.txt" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="texto.txt" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="teste.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EditorDeTexto.java" index="1">
+<position info="not_deleted" x="839" y="0"/>
+</item>
+<item historyLabel="teste.txt" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="texto.txt" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="saida.txt" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EditorDeTexto.java" index="1">
+<position info="not_deleted" x="839" y="0"/>
+</item>
+<item historyLabel="EditorDeTexto.java" index="1">
+<position info="not_deleted" x="839" y="0"/>
+</item>
+<item historyLabel="TestaLista.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestaLista.java" index="4">
+<position info="not_deleted" x="669" y="0"/>
+</item>
+<item historyLabel="TestaLista.java" index="4">
+<position info="not_deleted" x="669" y="0"/>
+</item>
+<item historyLabel="TestaLista.java" index="4">
+<position info="not_deleted" x="669" y="0"/>
+</item>
+<item historyLabel="TestaLista.java" index="4">
+<position info="not_deleted" x="669" y="0"/>
+</item>
+<item historyLabel="TestaLista.java" index="4">
+<position info="not_deleted" x="432" y="0"/>
+</item>
+<item historyLabel="Object.class" index="5">
 <position info="not_deleted" x="10169" y="8"/>
 </item>
-<item historyLabel="Object.class" index="4">
-<position info="not_deleted" x="10249" y="0"/>
+<item historyLabel="TestaLista.java" index="4">
+<position/>
 </item>
-<item historyLabel="Object.class" index="4">
-<position info="not_deleted" x="3513" y="8"/>
+<item historyLabel="ArrayList.class" index="6">
+<position info="not_deleted" x="5678" y="9"/>
 </item>
-<item historyLabel="String.class" index="6">
-<position info="not_deleted" x="114097" y="0"/>
+<item historyLabel="TestaLista.java" index="4">
+<position/>
 </item>
-<item historyLabel="PrintStream.class" index="5">
-<position info="not_deleted" x="27962" y="0"/>
+<item historyLabel="ArrayList.class" index="6">
+<position info="not_deleted" x="4159" y="0"/>
 </item>
-<item historyLabel="String.class" index="6">
-<position info="not_deleted" x="114097" y="0"/>
+<item historyLabel="AbstractList.class" index="7">
+<position info="not_deleted" x="2193" y="0"/>
 </item>
-<item historyLabel="PrintStream.class" index="5">
-<position info="not_deleted" x="27962" y="0"/>
+<item historyLabel="AbstractCollection.class" index="8">
+<position info="not_deleted" x="1680" y="18"/>
 </item>
-<item historyLabel="String.class" index="6">
-<position info="not_deleted" x="114097" y="0"/>
+<item historyLabel="AbstractCollection.class" index="8">
+<position info="not_deleted" x="15328" y="8"/>
 </item>
-<item historyLabel="Object.class" index="4">
-<position info="not_deleted" x="10169" y="8"/>
+<item historyLabel="TestaLista.java" index="4">
+<position/>
 </item>
-<item historyLabel="Conta.java" index="1">
-<position info="not_deleted" x="1667" y="0"/>
+<item historyLabel="TestaLista.java" index="4">
+<position info="not_deleted" x="669" y="0"/>
 </item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="218" y="0"/>
+<item historyLabel="TestaLista.java" index="4">
+<position info="not_deleted" x="593" y="0"/>
 </item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="265" y="0"/>
+<item historyLabel="TestaLista.java" index="4">
+<position info="not_deleted" x="669" y="0"/>
 </item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="730" y="0"/>
+<item historyLabel="TestaLista.java" index="4">
+<position info="not_deleted" x="247" y="0"/>
 </item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="251" y="0"/>
+<item historyLabel="TestaLista.java" index="4">
+<position info="not_deleted" x="273" y="0"/>
 </item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="730" y="0"/>
+<item historyLabel="TestaLista.java" index="4">
+<position info="not_deleted" x="273" y="0"/>
 </item>
-<item historyLabel="ContaCorrente.java" index="7">
-<position info="not_deleted" x="442" y="0"/>
+<item historyLabel="TesaConjunto.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="730" y="0"/>
+<item historyLabel="TesaConjunto.java" index="9">
+<position info="not_deleted" x="404" y="0"/>
 </item>
-<item historyLabel="ContaCorrente.java" index="7">
-<position info="not_deleted" x="442" y="0"/>
+<item historyLabel="TesaConjunto.java" index="9">
+<position info="not_deleted" x="260" y="0"/>
 </item>
-<item historyLabel="Conta.java" index="1">
-<position info="not_deleted" x="1690" y="0"/>
+<item historyLabel="TesaConjunto.java" index="9">
+<position info="not_deleted" x="404" y="0"/>
 </item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="730" y="0"/>
-</item>
-<item historyLabel="ContaCorrente.java" index="7">
-<position info="not_deleted" x="442" y="0"/>
-</item>
-<item historyLabel="ContaCorrente.java" index="7">
-<position info="not_deleted" x="629" y="0"/>
-</item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="730" y="0"/>
-</item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="434" y="0"/>
-</item>
-<item historyLabel="ContaCorrente.java" index="7">
-<position info="not_deleted" x="629" y="0"/>
-</item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="421" y="0"/>
-</item>
-<item historyLabel="ContaCorrente.java" index="7">
-<position info="not_deleted" x="629" y="0"/>
-</item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="421" y="0"/>
-</item>
-<item historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="460" y="0"/>
-</item>
-<item active="true" historyLabel="TestaLang.java" index="3">
-<position info="not_deleted" x="730" y="0"/>
+<item active="true" historyLabel="TesaConjunto.java" index="9">
+<position info="not_deleted" x="378" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -577,6 +611,7 @@
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="bottom"/>
 <trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -590,50 +625,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ContaCorrente.java" tooltip="Banco/src/br/com/caelum/banco/modelo/ContaCorrente.java">
-<persistable path="/Banco/src/br/com/caelum/banco/modelo/ContaCorrente.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TesaConjunto.java" tooltip="Banco/src/br/com/caelum/banco/listas/TesaConjunto.java">
+<persistable path="/Banco/src/br/com/caelum/banco/listas/TesaConjunto.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="String.class" tooltip="java.lang.String">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Interfaces/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.lang(String.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="AbstractCollection.class" tooltip="java.util.AbstractCollection">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Editor de Texto/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.util(AbstractCollection.class"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="PrintStream.class" tooltip="java.io.PrintStream">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Banco/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.io(PrintStream.class"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="AbstractList.class" tooltip="java.util.AbstractList">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Editor de Texto/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.util(AbstractList.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ArrayList.class" tooltip="java.util.ArrayList">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Editor de Texto/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class"/>
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Object.class" tooltip="java.lang.Object">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Interfaces/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.lang(Object.class"/>
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Editor de Texto/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;java.lang(Object.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestaLang.java" tooltip="Banco/src/br/com/caelum/banco/TestaLang.java">
-<persistable path="/Banco/src/br/com/caelum/banco/TestaLang.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestaLista.java" tooltip="Banco/src/br/com/caelum/banco/listas/TestaLista.java">
+<persistable path="/Banco/src/br/com/caelum/banco/listas/TestaLista.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="index.html" tooltip="Banco/doc/index.html">
-<persistable path="/Banco/doc/index.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="texto.txt" tooltip="Editor de Texto/texto.txt">
+<persistable path="/Editor de Texto/texto.txt"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tributavel.java" tooltip="Banco/src/br/com/caelum/banco/Tributavel.java">
-<persistable path="/Banco/src/br/com/caelum/banco/Tributavel.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="teste.txt" tooltip="Editor de Texto/teste.txt">
+<persistable path="/Editor de Texto/teste.txt"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ValorInvalidoException.java" tooltip="Banco/src/br/com/caelum/banco/exception/ValorInvalidoException.java">
-<persistable path="/Banco/src/br/com/caelum/banco/exception/ValorInvalidoException.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EditorDeTexto.java" tooltip="Editor de Texto/src/br/com/caeulum/editordetexto/EditorDeTexto.java">
+<persistable path="/Editor de Texto/src/br/com/caeulum/editordetexto/EditorDeTexto.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestaErro.java" tooltip="Interfaces/src/TestaErro.java">
-<persistable path="/Interfaces/src/TestaErro.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="saida.txt" tooltip="Editor de Texto/saida.txt">
+<persistable path="/Editor de Texto/saida.txt"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Circulo.java" tooltip="Interfaces/src/Circulo.java">
-<persistable path="/Interfaces/src/Circulo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EscreveTexto.java" tooltip="Editor de Texto/src/br/com/caeulum/editordetexto/EscreveTexto.java">
+<persistable path="/Editor de Texto/src/br/com/caeulum/editordetexto/EscreveTexto.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Teste.java" tooltip="Interfaces/src/Teste.java">
-<persistable path="/Interfaces/src/Teste.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="HttpURLConnection.class" tooltip="sun.net.www.protocol.http.HttpURLConnection">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Banco/\/usr\/lib\/jvm\/java-7-oracle\/jre\/lib\/rt.jar&lt;sun.net.www.protocol.http(HttpURLConnection.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Retangulo.java" tooltip="Interfaces/src/Retangulo.java">
-<persistable path="/Interfaces/src/Retangulo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LeTexto.java" tooltip="Editor de Texto/src/LeTexto.java">
+<persistable path="/Editor de Texto/src/LeTexto.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Quadrado.java" tooltip="Interfaces/src/Quadrado.java">
-<persistable path="/Interfaces/src/Quadrado.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="arquivo.txt" tooltip="Editor de Texto/arquivo.txt">
+<persistable path="/Editor de Texto/arquivo.txt"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AreaCalculavel.java" tooltip="Interfaces/src/AreaCalculavel.java">
-<persistable path="/Interfaces/src/AreaCalculavel.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AreaCalculavel.java" tooltip="Banco/src/AreaCalculavel.java">
-<persistable path="/Banco/src/AreaCalculavel.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ContaCorrente.java" tooltip="Banco/src/br/com/caelum/banco/modelo/ContaCorrente.java">
+<persistable path="/Banco/src/br/com/caelum/banco/modelo/ContaCorrente.java"/>
 </file>
 </mruList>
 </workbench>

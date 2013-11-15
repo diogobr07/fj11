@@ -1,0 +1,31 @@
+package br.com.caelum.banco.listas;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Internacionalizacao {
+
+	/**
+	 * @param args
+	 * @throws IOException
+	 */
+	public static void main(String[] args) throws IOException {
+		Map<String, String> dicionario = new HashMap<String, String>();
+
+		InputStream is = new FileInputStream("ingles.properties");
+		Scanner scanner = new Scanner(is);
+
+		while (scanner.hasNextLine()) {
+			String[] chaveValor = scanner.nextLine().split("=");
+			dicionario.put(chaveValor[0].trim(), chaveValor[1].trim());
+		}
+		System.out.println(dicionario.get("Visualizar"));
+	}
+
+}

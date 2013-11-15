@@ -2,7 +2,7 @@ package br.com.caelum.banco.modelo;
 
 import br.com.caelum.banco.Tributavel;
 
-public class ContaCorrente extends Conta implements Tributavel {
+public class ContaCorrente extends Conta implements Tributavel, Comparable<ContaCorrente> {
 	
 	public void atualiza (double taxa) {
 		this.saldo += this.saldo * taxa * 2;
@@ -28,5 +28,10 @@ public class ContaCorrente extends Conta implements Tributavel {
 			return cc.getNumero() == this.getNumero();
 		}
 		return false;
+	}
+
+	@Override
+	public int compareTo(ContaCorrente cc) {
+		return (int)(getSaldo() - cc.getSaldo());
 	}
 }

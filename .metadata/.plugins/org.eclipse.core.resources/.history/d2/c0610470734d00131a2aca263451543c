@@ -1,0 +1,9 @@
+package br.com.caelum.banco.listas;
+
+import java.util.Map;
+
+public class TestaMapa {
+	public static void main(String[] args){
+		Map<String, String> dicionario = new HashMap<String, String>();
+	}
+}
